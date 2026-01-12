@@ -1,0 +1,2 @@
+Beim Mergen von feature-facts in main ist ein Merge-Konflikt in bio.md entstanden, weil die Datei in beiden Branchen an ähnlicher Stelle verändert wurde. Git hat die Konfliktstellen mit Markern (<<<<<<, ======, >>>>>>) markiert und den Merge gestoppt.
+Ich habe bio.md geöffnet, die Markierungen entfernt und den Inhalt sinnvoll zusammengeführt. Anschließend habe ich die Datei mit git add bio.md gestaged und den Merge-Konflikt mit einem Commit abgeschlossen.
