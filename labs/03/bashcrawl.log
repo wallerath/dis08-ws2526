@@ -1,0 +1,28 @@
+    1  /opt/anaconda3/bin/jupyter_mac.command ; exit;
+    2  /opt/anaconda3/bin/jupyter_mac.command ; exit;
+    3  docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=CodeWithArjun123" -e "MSSQL_PID=Developer" -e "MSSQL_USER=SA" -p 1433:1433 -d --name=sql mcr.microsoft.com/azure-sql-edge
+    4  docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=CodeWithIsabell" -e "MSSQL_PID=Developer" -e "MSSQL_USER=Datenbanksysteme" -p 1433:1433 -d --name=sql mcr.microsoft.com/azure-sql-edge
+    5  docker rm -f sql
+    6  docker rm -f sql
+    7  pip show pandas
+    8  docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=CodeWithIsabell432 -e "MSSQL_PID=Developer" -p 1433:1433 -d --name sql mcr.microsoft.com/azure-sql-edge\n\ndocker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=CodeWithIsabell432\!" -e "MSSQL_PID=Developer" -p 1433:1433 -d --name sql mcr.microsoft.com/azure-sql-edge\n\nCtrl + C\n
+    9  docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=CodeWithIsabell432 -e "MSSQL_PID=Developer" -p 1433:1433 -d --name sql mcr.microsoft.com/azure-sql-edge\n
+   10  docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=CodeWithIsabell432 -e "MSSQL_PID=Developer" -p 1433:1433 -d --name sql mcr.microsoft.com/azure-sql-edge\n
+   11  docker pull mcr.microsoft.com/mssql/server:2019-latest
+   12  docker run --platform=linux/amd64 -d --name sql2019 \\n  -e "ACCEPT_EULA=Y" \\n  -e "MSSQL_SA_PASSWORD=Eykone$24minusEins" \\n  -p 1433:1433 \\n  -v mssql-data:/var/opt/mssql \\n  mcr.microsoft.com/mssql/server:2019-latest
+   13  docker pull mcr.microsoft.com/mssql/server:2019-latest
+   14  docker run --platform=linux/amd64 -d --name sql2019 \\n  -e "ACCEPT_EULA=Y" \\n  -e "MSSQL_SA_PASSWORD=<CodeWith@Passw0rd>" \\n  -p 1433:1433 \\n  -v mssql-data:/var/opt/mssql \\n  mcr.microsoft.com/mssql/server:2019-latest
+   15  docker rm -f sql\n
+   16  docker pull mcr.microsoft.com/mssql/server:2019-latest
+   17  docker rm -f sql2019
+   18  docker run --platform=linux/amd64 -d --name sql2019 \\n  -e "ACCEPT_EULA=Y" \\n  -e "MSSQL_SA_PASSWORD=<CodeWith@Passw0rd>" \\n  -p 1433:1433 \\n  -v mssql-data:/var/opt/mssql \\n  mcr.microsoft.com/mssql/server:2019-latest
+   19  wc -l*.tsv
+   20  wc-l*.tsv
+   21  pwd
+   22  ls
+   23  ls>files
+   24  cat files
+   25  wc-l*.tsv
+   26  wc -l*.tsv
+   27   wc -l *.tsv
+   28  /Users/zen/Downloads/bashcrawl-stable-2024.02.09/entrance 
